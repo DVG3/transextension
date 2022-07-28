@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Text transfer",
+  "version": "1",
+
+  "description": "Transfer message to discord:3",
+  "icons": {
+    "16":"/images/icon.ico",
+    "48":"/images/icon.ico",
+    "128":"/images/icon.ico"
+  },
+  "action":
+  {
+    "default_icon":"/images/icon.ico",
+    "default_popup": "/popup/geo.html"
+  },
+  "background":
+  {
+    "service_worker":"background.js"
+  }
+}
