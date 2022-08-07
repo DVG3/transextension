@@ -23,6 +23,7 @@ running = setInterval(function() {
             btn.style.width = "50px"
             btn.style.height = "50px"
             btn.innerText = "Send to culi"
+            btn.style.backgroundColor = "blue"
             btn.addEventListener("click",()=>{
                 let text = message.querySelector(".hzawbc8m.ii04i59q.jq4qci2q.g9io39s2.oo9gr5id")
                 if (!text) 
@@ -36,7 +37,7 @@ running = setInterval(function() {
             setTimeout(()=>{
                 document.body.appendChild(btn)
                 console.log(btn)
-            },500)
+            },300)
             
         })
     })
