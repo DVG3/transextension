@@ -14,8 +14,14 @@
     "default_icon":"/images/icon.ico",
     "default_popup": "/popup/geo.html"
   },
-  "background":
-  {
-    "service_worker":"background.js"
-  }
+  "content_scripts":[{
+    "matches":["https://www.facebook.com/*"],
+    "js":["main.js"]
+  }],
+  "web_accessible_resources": [
+    {
+      "resources":["btnimg.png"],
+      "matches": [ "https://www.facebook.com/*" ]
+    }
+  ]
 }
