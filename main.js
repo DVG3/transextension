@@ -36,11 +36,11 @@ running = setInterval(function() {
             setTimeout(()=>{
                 document.body.appendChild(btn)
                 console.log(btn)
-            },200)
+            },500)
             
         })
     })
-},2000)
+},1000)
 
 function sendMessage(text){
     fetch(CuliAPI,
