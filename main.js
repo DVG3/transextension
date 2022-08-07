@@ -17,7 +17,7 @@ running = setInterval(function() {
         
         message.addEventListener("click",(e)=>{
             btn = document.createElement("button")
-            btn.style.position = "absolute"
+            btn.style.position = "fixed"
             btn.style.top = e.clientY + "px"
             btn.style.left = e.clientX + "px"
             btn.style.width = "50px"
